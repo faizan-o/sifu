@@ -1,21 +1,9 @@
-%%{init: {
-  'theme': 'base',
-  'themeVariables': {
-    'background': '#0d1117',
-    'primaryColor': '#161b22',
-    'primaryTextColor': '#ffffff',
-    'primaryBorderColor': '#58a6ff',
-    'lineColor': '#58a6ff',
-    'secondaryColor': '#21262d',
-    'tertiaryColor': '#30363d',
-    'fontFamily': 'Arial'
-  }
-}}%%
 # Sifu - A Scalable Interactive Learning Platform
 
 ## Basic Flow of the Program
 
 ```mermaid
+%%{init: {'theme': 'dark'}}%%
 flowchart TD
     A([Application Launch]) --> B{Select Mode}
 
