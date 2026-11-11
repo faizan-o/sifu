@@ -1,3 +1,4 @@
+%%{init: {'theme': 'dark'}}%%
 # Sifu - A Scalable Interactive Learning Platform
 
 ## Basic Flow of the Program
