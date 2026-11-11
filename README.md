@@ -1,37 +1,32 @@
-# Sifu - A Scalable Interative Learning Platform
+# Sifu - A Scalable Interactive Learning Platform
 
-## Basic Flow Of The Program
-
+## Basic Flow of the Program
 
 ```mermaid
-
 flowchart TD
-A([Application Launch]) --> B{Select Mode}
+    A([Application Launch]) --> B{Select Mode}
 
-B --> |Student| C[Study Mode]
-B --> |Teacher| D[Design Mode]
+    B -->|Student| C[Study Mode]
+    B -->|Teacher| D[Design Mode]
 
-D --> E[Create Or Edit Course]
-E --> F[Add Or Arrange Sections & Activities]
-F --> G[Preview Deck]
-G --> H[Export Course]
-H --> I[(Deck File)]
+    D --> E[Create Or Edit Course]
+    E --> F[Add Or Arrange Sections & Activities]
+    F --> G[Preview Deck]
+    G --> H[Export Course]
+    H --> I[(Deck File)]
 
-C --> J
+    C --> J[Load / Import / Select Course]
+    I --> J
 
-I --> J[Load / Import / Select Course]
-J --> K[Display Interactive Course]
-K --> L[Handle Student Interaction]
-L --> M[Check Answer And Give Feedback]
-M --> N[Save Progress And Score]
+    J --> K[Display Interactive Course]
+    K --> L[Handle Student Interaction]
+    L --> M[Check Answer And Give Feedback]
+    M --> N[Save Progress And Score]
 
-N --> O([End Session])
-
-
+    N --> O([End Session])
 ```
 
-## Problems Being Adressed
-
+## Problems Being Addressed
 
 1. **Lack of Interactive Learning Experiences:** Traditional learning methods rely heavily on text-based content, which can make learning less engaging and limit students' opportunities for hands-on practice.
 
