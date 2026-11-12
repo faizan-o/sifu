@@ -1,0 +1,11 @@
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/out/build/x64-Debug/CMakeFiles/glad.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/out/build/x64-Debug/CMakeFiles/imgui.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/out/build/x64-Debug/CMakeFiles/ImGUI-Example.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/out/build/x64-Debug/vendor/glfw/CMakeFiles/edit_cache.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/out/build/x64-Debug/vendor/glfw/CMakeFiles/rebuild_cache.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/out/build/x64-Debug/vendor/glfw/src/CMakeFiles/glfw.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/out/build/x64-Debug/vendor/glfw/src/CMakeFiles/update_mappings.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/out/build/x64-Debug/vendor/glfw/src/CMakeFiles/edit_cache.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/out/build/x64-Debug/vendor/glfw/src/CMakeFiles/rebuild_cache.dir
