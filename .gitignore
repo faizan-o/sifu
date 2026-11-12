@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build and IntelliSense cache
+*.VC.db
+*.VC.VC.opendb
+*.ipch
+
+# NuGet
+packages/
+*.nupkg
