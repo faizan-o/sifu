@@ -1,0 +1,10 @@
+^C:\PERSONAL\NUST\SMESTER-1\COURSES\FOCP\PROJECT\SIFU\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu -BC:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/build --check-stamp-file C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

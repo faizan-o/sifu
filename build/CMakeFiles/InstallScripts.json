@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/build/cmake_install.cmake",
+		"C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/build/vendor/glfw/cmake_install.cmake",
+		"C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/build/vendor/glfw/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

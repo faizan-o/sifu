@@ -1,0 +1,8 @@
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/build/CMakeFiles/glad.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/build/CMakeFiles/imgui.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/build/CMakeFiles/Sifu.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/build/CMakeFiles/ALL_BUILD.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/build/CMakeFiles/ZERO_CHECK.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/build/vendor/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/build/vendor/glfw/src/CMakeFiles/glfw.dir
+C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/build/vendor/glfw/src/CMakeFiles/update_mappings.dir

@@ -114,6 +114,7 @@ void Application::RenderUI()
         (io.DisplaySize.y - windowSize.y) * 0.5f
     );
     
+    
     ImGui::SetNextWindowPos(center);
     ImGui::SetNextWindowSize(windowSize);
 

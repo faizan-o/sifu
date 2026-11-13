@@ -51,8 +51,8 @@ target_link_libraries(imgui PUBLIC
 # Application
 add_executable(Sifu
     src/main.cpp
-    src/Application.cpp
-    src/Application.h
+    src/UI/Application.cpp
+    src/UI/Application.h
 )
 
 target_link_libraries(Sifu PRIVATE
