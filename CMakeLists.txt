@@ -1,7 +1,7 @@
 
 cmake_minimum_required(VERSION 3.20)
 
-project(ImGUI-Example LANGUAGES C CXX)
+project(Sifu LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -49,13 +49,13 @@ target_link_libraries(imgui PUBLIC
 )
 
 # Application
-add_executable(ImGUI-Example
+add_executable(Sifu
     src/main.cpp
     src/Application.cpp
     src/Application.h
 )
 
-target_link_libraries(ImGUI-Example PRIVATE
+target_link_libraries(Sifu PRIVATE
     imgui
     glad
     glfw

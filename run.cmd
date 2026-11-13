@@ -2,6 +2,6 @@ cmake -S . -B build
 cmake --build build
 cd build/Debug
 
-ImGUI-Example.exe
+Sifu.exe
 cd ..
 cd ..
