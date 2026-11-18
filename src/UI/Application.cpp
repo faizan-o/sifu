@@ -1,3 +1,4 @@
+/* Application.cpp */
 
 #include "Application.h"
 
@@ -10,6 +11,9 @@
 #include <imgui.h>
 #include <backends/imgui_impl_glfw.h>
 #include <backends/imgui_impl_opengl3.h>
+
+#include "components/shared/fonts/Font.h"
+
 
 Application::Application() = default;
 
@@ -90,6 +94,8 @@ bool Application::Initialize()
         glfwTerminate();
         return false;
     }
+
+    Font::Initialize();
 
     m_Running = true;
 

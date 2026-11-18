@@ -187,12 +187,22 @@ build CMakeFiles\Sifu.dir\src\main.cpp.obj: CXX_COMPILER__Sifu_unscanned_Debug C
   TARGET_PDB = Sifu.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Sifu.dir
 
-build CMakeFiles\Sifu.dir\src\UI\Application.cpp.obj: CXX_COMPILER__Sifu_unscanned_Debug C$:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\UI\Application.cpp || cmake_object_order_depends_target_Sifu
+build CMakeFiles\Sifu.dir\src\ui\Application.cpp.obj: CXX_COMPILER__Sifu_unscanned_Debug C$:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\Application.cpp || cmake_object_order_depends_target_Sifu
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
   INCLUDES = -IC:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\vendor\imgui -IC:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\vendor\imgui\backends -IC:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\vendor\glfw\include -IC:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\vendor\glad\include
   OBJECT_DIR = CMakeFiles\Sifu.dir
-  OBJECT_FILE_DIR = CMakeFiles\Sifu.dir\src\UI
+  OBJECT_FILE_DIR = CMakeFiles\Sifu.dir\src\ui
+  TARGET_COMPILE_PDB = CMakeFiles\Sifu.dir\
+  TARGET_PDB = Sifu.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\Sifu.dir
+
+build CMakeFiles\Sifu.dir\src\ui\components\shared\fonts\Font.cpp.obj: CXX_COMPILER__Sifu_unscanned_Debug C$:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\fonts\Font.cpp || cmake_object_order_depends_target_Sifu
+  CONFIG = Debug
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
+  INCLUDES = -IC:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\vendor\imgui -IC:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\vendor\imgui\backends -IC:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\vendor\glfw\include -IC:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\vendor\glad\include
+  OBJECT_DIR = CMakeFiles\Sifu.dir
+  OBJECT_FILE_DIR = CMakeFiles\Sifu.dir\src\ui\components\shared\fonts
   TARGET_COMPILE_PDB = CMakeFiles\Sifu.dir\
   TARGET_PDB = Sifu.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\Sifu.dir
@@ -205,13 +215,13 @@ build CMakeFiles\Sifu.dir\src\UI\Application.cpp.obj: CXX_COMPILER__Sifu_unscann
 #############################################
 # Link the executable Sifu.exe
 
-build Sifu.exe: CXX_EXECUTABLE_LINKER__Sifu_Debug CMakeFiles\Sifu.dir\src\main.cpp.obj CMakeFiles\Sifu.dir\src\UI\Application.cpp.obj | imgui.lib glad.lib vendor\glfw\src\glfw3.lib || glad.lib imgui.lib vendor\glfw\src\glfw3.lib
+build Sifu.exe: CXX_EXECUTABLE_LINKER__Sifu_Debug CMakeFiles\Sifu.dir\src\main.cpp.obj CMakeFiles\Sifu.dir\src\ui\Application.cpp.obj CMakeFiles\Sifu.dir\src\ui\components\shared\fonts\Font.cpp.obj | imgui.lib glad.lib vendor\glfw\src\glfw3.lib || glad.lib imgui.lib vendor\glfw\src\glfw3.lib
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = imgui.lib  glad.lib  vendor\glfw\src\glfw3.lib  opengl32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\Sifu.dir
-  POST_BUILD = cd .
+  POST_BUILD = C:\windows\system32\cmd.exe /C "cd /D C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\out\build\x64-Debug && "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/assets C:/Personal/Nust/Smester-1/Courses/FoCP/Project/sifu/out/build/x64-Debug/assets"
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\Sifu.dir\
   TARGET_FILE = Sifu.exe

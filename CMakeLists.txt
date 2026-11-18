@@ -51,8 +51,16 @@ target_link_libraries(imgui PUBLIC
 # Application
 add_executable(Sifu
     src/main.cpp
-    src/UI/Application.cpp
-    src/UI/Application.h
+    src/ui/Application.cpp
+    src/ui/Application.h
+    src/ui/components/shared/fonts/Font.h
+    src/ui/components/shared/fonts/Font.cpp
+)
+
+add_custom_command(TARGET Sifu POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    "${CMAKE_SOURCE_DIR}/assets"
+    "$<TARGET_FILE_DIR:Sifu>/assets"
 )
 
 target_link_libraries(Sifu PRIVATE
