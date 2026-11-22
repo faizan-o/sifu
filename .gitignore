@@ -21,4 +21,4 @@ packages/
 *.nupkg
 
 ./build
-./output
+./out
