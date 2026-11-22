@@ -13,7 +13,9 @@
 #include <backends/imgui_impl_opengl3.h>
 
 #include "components/shared/fonts/Font.h"
-
+#include "components/shared/image/Image.h"
+#include "components/shared/constants/Constants.h"
+#include "screens/OnBoardingScreen/OnBoardingScreen.h"
 
 Application::Application() = default;
 
@@ -38,12 +40,13 @@ bool Application::Initialize()
 
     // Create window
     m_Window = glfwCreateWindow(
-        1280,
-        720,
+        Constants::BaseWindowWidth,
+        Constants::BaseWindowHeight,
         "Sifu",
         nullptr,
         nullptr
     );
+
 
     if (!m_Window)
     {
@@ -51,6 +54,13 @@ bool Application::Initialize()
         glfwTerminate();
         return false;
     }
+
+    glfwSetWindowSizeLimits(
+        m_Window,
+        900, 600,
+        GLFW_DONT_CARE,
+        GLFW_DONT_CARE
+    );
 
     glfwMakeContextCurrent(m_Window);
     glfwSwapInterval(1);
@@ -72,7 +82,7 @@ bool Application::Initialize()
     ImGuiIO& io = ImGui::GetIO();
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
 
-    ImGui::StyleColorsLight();
+    //ImGui::StyleColorsLight();
 
     if (!ImGui_ImplGlfw_InitForOpenGL(m_Window, true))
     {
@@ -111,44 +121,7 @@ void Application::BeginFrame()
 
 void Application::RenderUI()
 {
-    ImGuiIO& io = ImGui::GetIO();
-
-    ImVec2 windowSize(400, 200);
-
-    ImVec2 center(
-        (io.DisplaySize.x - windowSize.x) * 0.5f,
-        (io.DisplaySize.y - windowSize.y) * 0.5f
-    );
-    
-    
-    ImGui::SetNextWindowPos(center);
-    ImGui::SetNextWindowSize(windowSize);
-
-    ImGui::Begin("Welcoming Window", nullptr, ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize);
-
-    ImGui::Text("Enter Your Name Below");
-
-    ImGui::AlignTextToFramePadding();
-    ImGui::Text("Name");
-    ImGui::SameLine(0, 10);
-    
-    ImGui::SetNextItemWidth(200);
-
-    static double show_time = -1.0;
-
-    ImGui::InputText("##Name", name.data(), name.capacity()+1);
-
-    ImGui::Separator();
-    if (ImGui::Button("Welcome Me"))
-    {
-        show_time = ImGui::GetTime();
-    }
-
-    if (show_time >= 0 && ImGui::GetTime() - show_time < 3.0) {
-        ImGui::Text("Hey %s, Welcome To Sifu", name.c_str());
-    }
-
-    ImGui::End();
+    OnBoardingScreen(this->m_Window);
 }
 
 void Application::EndFrame()
@@ -182,6 +155,7 @@ void Application::Run()
 
 void Application::Shutdown()
 {
+    Image::ClearCache();
     if (ImGui::GetCurrentContext())
     {
         ImGui_ImplOpenGL3_Shutdown();

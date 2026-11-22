@@ -7,7 +7,40 @@
     <ClCompile Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\buttons\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\card\Card.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\fonts\Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\image\Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\tag\Tag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\text\Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\screens\BasicScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\screens\OnBoardingScreen\MainSection\HeroTextSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\screens\OnBoardingScreen\MainSection\MainSection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\screens\OnBoardingScreen\OnBoardingFooter\OnBoardingFooter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\screens\OnBoardingScreen\OnBoardingHeader\OnBoardingHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\screens\OnBoardingScreen\OnBoardingScreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -15,7 +48,43 @@
     <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\Application.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\buttons\Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\card\Card.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\constants\Colors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\constants\Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\fonts\Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\image\Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\tag\Tag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\components\shared\text\Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\screens\BasicScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\screens\OnBoardingScreen\MainSection\MainSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\screens\OnBoardingScreen\OnBoardingFooter\OnBoardingFooter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\screens\OnBoardingScreen\OnBoardingHeader\OnBoardingHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Personal\Nust\Smester-1\Courses\FoCP\Project\sifu\src\ui\screens\OnBoardingScreen\OnBoardingScreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

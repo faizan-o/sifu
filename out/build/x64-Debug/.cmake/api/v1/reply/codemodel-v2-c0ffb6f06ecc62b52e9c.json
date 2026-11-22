@@ -24,6 +24,13 @@
 					"jsonFile" : "target-Threads__Threads-Debug-cceac6f2820ece0e99cb.json",
 					"name" : "Threads::Threads",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stb_image::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stb_image-Debug-412c6205ab11bef97487.json",
+					"name" : "stb_image",
+					"projectIndex" : 0
 				}
 			],
 			"directories" : 
@@ -32,7 +39,8 @@
 					"abstractTargetIndexes" : 
 					[
 						0,
-						1
+						1,
+						3
 					],
 					"build" : ".",
 					"childIndexes" : 
@@ -96,7 +104,8 @@
 					"abstractTargetIndexes" : 
 					[
 						0,
-						1
+						1,
+						3
 					],
 					"childIndexes" : 
 					[
@@ -138,7 +147,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Sifu::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Sifu-Debug-d6cf3fe2e045577fd246.json",
+					"jsonFile" : "target-Sifu-Debug-b29ba05965c86fb982e4.json",
 					"name" : "Sifu",
 					"projectIndex" : 0
 				},
@@ -159,7 +168,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "imgui::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-imgui-Debug-09f05e201d85eb2efa14.json",
+					"jsonFile" : "target-imgui-Debug-de8421839842bdac78c9.json",
 					"name" : "imgui",
 					"projectIndex" : 0
 				},

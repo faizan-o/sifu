@@ -26,6 +26,15 @@ target_include_directories(glad PUBLIC
     vendor/glad/include
 )
 
+
+add_library(stb_image INTERFACE)
+
+target_include_directories(stb_image
+    INTERFACE
+    ${CMAKE_CURRENT_SOURCE_DIR}/vendor/stb_img
+)
+
+
 # Dear ImGui
 add_library(imgui STATIC
     vendor/imgui/imgui.cpp
@@ -48,14 +57,15 @@ target_link_libraries(imgui PUBLIC
     OpenGL::GL
 )
 
-# Application
-add_executable(Sifu
-    src/main.cpp
-    src/ui/Application.cpp
-    src/ui/Application.h
-    src/ui/components/shared/fonts/Font.h
-    src/ui/components/shared/fonts/Font.cpp
+# Application - automatically collect all source and header files
+file(GLOB_RECURSE SOURCES
+    CONFIGURE_DEPENDS
+    "${CMAKE_SOURCE_DIR}/src/*.cpp"
+    "${CMAKE_SOURCE_DIR}/src/*.h"
+    "${CMAKE_SOURCE_DIR}/src/*.hpp"
 )
+
+add_executable(Sifu ${SOURCES})
 
 add_custom_command(TARGET Sifu POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory
@@ -68,4 +78,5 @@ target_link_libraries(Sifu PRIVATE
     glad
     glfw
     OpenGL::GL
+    stb_image
 )
